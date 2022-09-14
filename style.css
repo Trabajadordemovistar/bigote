@@ -1,0 +1,48 @@
+#boton:hover{
+background-color: cornflowerblue;
+color: lime;
+}
+
+#boton{
+color: black;
+
+}
+
+
+
+
+
+h3{
+font-size: 30px;
+border: 20px;
+width: 13%;
+font-size: 50px;
+font-family: anton;
+color-interpolation-filters: sRGB;
+}
+
+canvas{
+animation-name: pro;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border: solid;
+border-color: royalblue;
+border-width: 20px;
+border-bottom-color: rgb(95, 55, 55);
+border-top-color: rgb(32, 182, 77);
+border-left-color:rgb(95, 55, 55);
+border-right-color: rgb(95, 55, 55);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+@keyframes pro{
+ from{box-shadow: 1px 1px 200px cornflowerblue ;}
+ to{box-shadow: 1px 1px 200px red ;}
+
+}
+
+
+#skin{
+float: right;
+
+}
